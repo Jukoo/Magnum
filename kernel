@@ -1,0 +1,14 @@
+module
+["exports"]= {
+["node_core"]  : {
+    electron   : require("electron") , 
+    url        : require("url") , 
+    path       : require("path") , 
+
+    processing : require("./lib/processing") , 
+    // config  
+    browser_win_opt        : require("./config/bwopt.json"),
+    main_process_conf_menu: require("./config/main_process_menu")   
+}
+
+}

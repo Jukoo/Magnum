@@ -1,0 +1,31 @@
+{
+  "name": "magnum",
+  "version": "1.0.0",
+  "description": "Incremental file  for remote and  local machine",
+  "main": "main_process.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron . -no-sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jukoo"
+  },
+  "keywords": [
+    "file",
+    "incremental",
+    "ftp",
+    "incremental",
+    "filezila",
+    "with",
+    "incremental",
+    "file",
+    "transfer"
+  ],
+  "author": "jukoo",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^7.1.3"
+  }
+}

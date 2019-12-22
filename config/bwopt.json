@@ -1,0 +1,19 @@
+{
+
+    "Bw_options" : {
+        "width" : 800,
+        "height": 600,
+        "resizable" : true ,
+        "webPreferences" : {
+            "nodeIntegration": true,
+            "sandbox":true
+        }
+    } ,
+    "URL_CONF" : {
+       "protocol":"file",
+       "slashes" :true,
+       "pathname":""
+    },
+
+    "htm_file": "renderer/index.html"
+}
